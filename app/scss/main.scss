@@ -1,16 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box ;
-    list-style-type: none;
-    text-decoration: none;
-    outline: none;
-}
+@forward "./base/index";
+@use "./util/index" as variable;
+
 header{
-    background-color: bisque;
+    background-color: variable.$header_bg;
     padding: 1rem .5rem;
 }
 main{
-    background-color: #ededed;
+    background-color: variable.$main_bg;
     padding: 1rem
 }
