@@ -1,5 +1,12 @@
 @forward 'reset';
 @use 'variables';
+
+@each $color in red, green ,blue{
+    .#{$color}-text {
+        color: $color;
+    }
+}
+
 header{
     background: variables.$heder-bgcollor;
 }
