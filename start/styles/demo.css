@@ -3,4 +3,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header {
+  background: #ffab73;
+}
+
+nav {
+  margin-top: 15px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin: 5px 15px;
+}
+nav ul li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  color: green;
+  background-color: wheat;
+}
+
+main {
+  background: #ffd384;
+}
+
+#about p {
+  font-size: 22px;
+}
+
+footer {
+  background: #ffaec0;
 }/*# sourceMappingURL=demo.css.map */
